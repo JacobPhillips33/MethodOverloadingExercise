@@ -23,7 +23,7 @@ namespace MethodOverloadingExercise
             if (myBool == true)
             {
                 int sum = num1 + num2;
-                if (sum == 1)
+                if (sum == 1 || sum == -1)
                 {
                     return $"{sum} dollar";
                 }
